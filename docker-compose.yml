@@ -3,8 +3,7 @@ services:
   flask_framework:
     build: 
       context: .
-    container_name: assignment
     ports:
-      - 5000:5000
+      - 80:5000
     volumes:
       - ./flask_framework:/flask_framework
